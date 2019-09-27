@@ -35,7 +35,7 @@ This plugin is extensible by other plugins. Via the hook system plugins can add 
 
 ### Via download
 
-- Download the plugin [here][plugin-download-link]
+- Download the plugin [here][https://github.com/MarHerUMR/ojs-social-media-plugin/archive/master.zip]
 - Unzip the plugin
 - Move the `socialMedia` folder to the `OJS/plugins/generic` folder
 - In the root folder of your OJS installation run `php tools/upgrade.php upgrade`
