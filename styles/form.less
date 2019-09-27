@@ -1,0 +1,60 @@
+/**
+ * @file plugins/generic/socialMedia/styles/form.less
+ *
+ * Copyright (c) 2019 Centrum für Nah- und Mittelost-Studien (CNMS), Philipps Universität Marburg
+ * Distributed under the GNU GPL v2. For full terms see the file LICENSE.
+ *
+ * @brief Styles for the social media form
+ */
+
+.channel-type-container {
+    height: 32px;
+
+    img {
+        max-height: 32px;
+        float: left;
+    }
+
+    .label {
+        height: 32px;
+        vertical-align: middle;
+        padding-left: 10px;
+    }
+}
+
+
+#facebookStatus {
+    #statusIndicator:before {
+        content: "\f111";
+        margin-right: .25em;
+    }
+
+    .messageError:before {
+        color: rgb(255, 0, 0);
+    }
+
+    .messageSuccess:before {
+        color: rgb(50, 205, 50);
+    }
+
+    .messageWarning:before {
+        color: rgb(255, 165, 0);
+    }
+
+    #statusIndicator:before {
+        content: "\f111";
+        margin-right: .25em;
+    }
+
+    .messageError:before {
+        color: rgb(255, 0, 0);
+    }
+
+    .messageSuccess:before {
+        color: rgb(50, 205, 50);
+    }
+
+    .messageWarning:before {
+        color: rgb(255, 165, 0);
+    }
+}

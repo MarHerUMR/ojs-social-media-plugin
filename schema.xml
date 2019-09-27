@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schema SYSTEM "../../../lib/pkp/dtd/xmlSchema.dtd">
+
+<!--
+  * schema.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Social media plugin schema in XML.
+  *
+  -->
+
+<schema version="0.2">
+    <!--
+        *
+        * TABLE social_media_settings
+        *
+    -->
+    <table name="social_media_settings">
+        <field name="context_id" type="I8">
+            <NOTNULL/>
+        </field>
+
+        <field name="locale" type="C2" size="14">
+          <NOTNULL />
+          <DEFAULT VALUE=""/>
+        </field>
+
+        <field name="setting_name" type="C2" size="255" />
+
+        <field name="setting_value" type="X"/>
+
+        <field name="setting_type" type="C2" size="6">
+          <NOTNULL/>
+          <descr>(bool|int|float|string|object)</descr>
+        </field>
+
+        <descr>The social media settings for each context</descr>
+    </table>
+
+    <!--
+        *
+        * TABLE social_media_messages
+        *
+    -->
+    <table name="social_media_messages">
+      <field name="message_id" type="I8">
+        <KEY />
+        <AUTOINCREMENT />
+      </field>
+
+      <field name="context_id" type="I8" />
+
+      <field name="channel_id" type="I8" />
+
+      <field name="value" type="X" />
+
+      <field name="date_added" type="T" />
+
+      <field name="date_posted" type="T" />
+
+      <descr>All social media messages</descr>
+    </table>
+
+    <!--
+        *
+        * TABLE social_media_posting_channels
+        *
+    -->
+    <table name="social_media_posting_channels">
+      <field name="channel_id" type="I8">
+        <KEY />
+        <AUTOINCREMENT />
+      </field>
+      <field name="context_id" type="I8"></field>
+      <descr>Posting channels</descr>
+    </table>
+
+    <!--
+        *
+        * TABLE social_media_posting_channel_settings
+        *
+    -->
+    <table name="social_media_posting_channel_settings">
+      <field name="channel_id" type="I8" />
+
+      <field name="locale" type="C2" size="14">
+        <NOTNULL />
+        <DEFAULT VALUE=""/>
+      </field>
+
+      <field name="setting_name" type="C2" size="255" />
+
+      <field name="setting_value" type="X" />
+
+      <field name="setting_type" type="C2" size="6">
+        <NOTNULL/>
+        <descr>(bool|int|float|string|object)</descr>
+      </field>
+
+      <descr>Posting channels</descr>
+    </table>
+</schema>

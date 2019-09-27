@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/socialMedia/locale/en_US/privacyPolicy.xml
+  *
+  * Copyright (c) 2019 Centrum für Nah- und Mittelost-Studien (CNMS), Philipps Universität Marburg
+  * Distributed under the GNU GPL v2. For full terms see the file LICENSE.
+  *
+  *
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=Translating_OxS
+  * Localization strings.
+-->
+
+<locale name="en_US" full_name="U.S. English">
+    <message key="plugins.generic.socialMedia.privacyPolicy">privacy policy</message>
+    <message key="plugins.generic.socialMedia.privacyPolicy.content">
+        <![CDATA[<h3>]]>Social Media Plugin privacy policy<![CDATA[</h3>]]>
+        <![CDATA[<h4 id="socialMediaFacebook">]]>Facebook<![CDATA[</h4>]]>
+        <![CDATA[<p>]]>In the OJS backend Journal Managers have the possibility to add posts to Facebook when a new issue has been published. They will be added as <![CDATA[<em>]]>scheduled posts<![CDATA[</em>]]>. In order to use this feature you first have to agree to the use of cookies by Facebook and the following policies:<![CDATA[</p>]]>
+        <![CDATA[<ul>]]>
+            <![CDATA[<li><a href="https://www.facebook.com/terms.php">]]>Facebook Terms of Service<![CDATA[</a></li>]]>
+            <![CDATA[<li><a href="https://www.facebook.com/policies/cookies/">]]>Facebook Cookie Policy<![CDATA[</a></li>]]>
+            <![CDATA[<li><a href="https://www.facebook.com/about/privacy/">]]>Facebook Data Policy<![CDATA[</a></li>]]>
+            <![CDATA[<li><a href="https://www.facebook.com/policies/ads/">]]>Facebook Advertising Policies<![CDATA[</a></li>]]>
+        <![CDATA[</ul>]]>
+        <![CDATA[<p>]]>This setting is found in your <![CDATA[<em>]]>Personal Platform Settings<![CDATA[</em>]]>. Before you agree no connection will be made to Facebook and therefore none of your data is shared with Facebook. At any time you can withdraw your consent and there will no longer be connections made with Facebook.<![CDATA[</p>]]>
+        <![CDATA[<p>]]>In order to associate a Facebook Page with a <![CDATA[<em>]]>Posting Channel<![CDATA[</em>]]> the identifier of the page is stored at our database. No other information, like access tokens or passwords are stored. The access tokens used to make the Facebook connections are stored in your browser.<![CDATA[</p>]]>
+    </message>
+
+</locale>

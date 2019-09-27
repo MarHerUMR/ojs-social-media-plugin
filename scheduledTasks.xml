@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE scheduled_tasks SYSTEM "../../../lib/pkp/dtd/scheduledTasks.dtd">
+
+<scheduled_tasks>
+    <task class="plugins.generic.socialMedia.AutoPosterTask">
+        <descr>Check if a there are posts to post.</descr>
+        <frequency minute="*"/>
+    </task>
+</scheduled_tasks>

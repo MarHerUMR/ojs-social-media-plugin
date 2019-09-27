@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/socialMedia/locale/en_US/locale.xml
+  *
+  * Copyright (c) 2019 Centrum für Nah- und Mittelost-Studien (CNMS), Philipps Universität Marburg
+  * Distributed under the GNU GPL v2. For full terms see the file LICENSE.
+  *
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=Translating_OxS
+  * Localization strings.
+-->
+
+<locale name="en_US" full_name="U.S. English">
+    <message key="plugins.generic.socialMedia.displayName">Social Media</message>
+    <message key="plugins.generic.socialMediaSidebarBlock.displayName">Social Media Sidebar Block</message>
+    <message key="plugins.generic.socialMedia.description">Provide several integrations with social media plattforms like Facebook and Twitter.</message>
+    <message key="plugins.generic.socialMediaSidebarBlock.description">This plugin provides a sidebar block with links to your social media outlets.</message>
+    <message key="plugins.generic.socialMedia.form.enableSocialMediaMetaTags">Enable the meta tags providing information for the <![CDATA[<a href="http://ogp.me">]]>Open Graph protocol<![CDATA[</a>]]> and <![CDATA[<a href="https://dev.twitter.com/cards/overview">]]>Twitter Cards<![CDATA[</a>]]>.</message>
+    <message key="plugins.generic.socialMedia.metaTagTwitterSite">The Twitter @username the card should be attributed to.</message>
+    <message key="plugins.generic.socialMedia.metaTagTwitterSitePlaceholder">Enter the twitter handle without the @.</message>
+    <message key="plugins.generic.socialMedia.metaTagTwitterSite.lengthError">The twitter handle has to be less than 16 charakters.</message>
+    <message key="plugins.generic.socialMedia.metaTagTwitterSite.invalidHandle">Please enter a valid twitter handle.</message>
+    <message key="plugins.generic.socialMedia.defaultTwitterBlockText">Follow us on <![CDATA[<a href="https://twitter.com/--twitterHandle--">]]>Twitter<![CDATA[</a>]]>.</message>
+    <message key="plugins.generic.socialMedia.form.blockTwitterAccount">The Twitter account to be linked in the sidebar.</message>
+    <message key="plugins.generic.socialMedia.form.blockTwitterAccountPlaceholder">The twitter handle without the @</message>
+    <message key="plugins.generic.socialMedia.form.blockFacebookURL">The URL of your presence on Facebook, linked in the sidebar.</message>
+    <message key="plugins.generic.socialMedia.form.blockFacebookURLPlaceholder">https://facebook.com/yourName</message>
+    <message key="plugins.generic.socialMedia.form.blockFacebookURL.urlError">Please enter a valid Facebook URL.</message>
+    <message key="plugins.generic.socialMedia.form.enableAutoposting">Enable the autoposting functionality.</message>
+    <message key="plugins.generic.socialMedia.defaultFacebookBlockText">Find us on <![CDATA[<a href="--url--">]]>Facebook<![CDATA[</a>]]>.</message>
+
+    <message key="plugins.generic.socialMedia.autoposter.taskName">Social Media Autoposter Task</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.noneExist">No Posting Channels have been added.</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.generalSettings">General Posting channel settings</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.additionalSettings">Settings specific to</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.facebookSettings">Settings specific to Facebook</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.facebookCookieConsent">In order to connect to Facebook you have to go to your Personal Platform Settings and consent to Facebook cookies.</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.postingChannel">Posting channel</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.postingChannelNameRequired">The name of the posting channel has to be entered.</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.postingChannelEditSuccess">Posting channel successfully updated.</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.postingChannelDeleted">Posting channel successfully removed.</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.channelName">Channel name</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.messageQueue">Message queue</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.messageQueueOf">Message queue of</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.messageQueueArchive">Message archive</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.facebookScheduleGrid">Scheduled Messages</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.showQueue">Show queue</message>
+    <message key="grid.action.showQueue">Show queue</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.noMessagesInQueue">No messages in queue</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.noMessagesScheduled">No messages are scheduled on Facebook</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.noMessagesInArchive">No messages in the archive</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.message">Message</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.personalPlatformSettings">Personal Platform Settings</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.thirdPartyCookies">Third party cookies settings</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.facebookCookies">
+        I agree to the use of Cookies from Facebook and the following policies:
+        <![CDATA[<ul>]]>
+        <![CDATA[<li><a href="https://www.facebook.com/terms.php">]]>Facebook Terms of Service<![CDATA[</a></li>]]>
+        <![CDATA[<li><a href="https://www.facebook.com/policies/cookies/">]]>Facebook Cookie Policy<![CDATA[</a></li>]]>
+        <![CDATA[<li><a href="https://www.facebook.com/about/privacy/">]]>Facebook Data Policy<![CDATA[</a></li>]]>
+        <![CDATA[<li><a href="https://www.facebook.com/policies/ads/">]]>Facebook Advertising Policies<![CDATA[</a></li>]]>
+        <![CDATA[</ul>]]>
+    </message>
+    <message key="plugins.generic.socialMedia.form.autoposter.personalPlatformSettingsEditSuccess">Personal platform settings successfully updated.</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.addPostingChannel">Add posting channel</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.postingChannelAdded">Added posting channel</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.messagesInQueue">Messages in queue</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.postingChannelTypeLabel">The type of the posting channel</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.postingChannelFrequency">Posting Frequency (a number and a M for minutes, a H for hours and D for days)</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.postingChannelFrequencyInvalid">Please enter a valid frequecy. A number, followed by either a M, H or D.</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.postingChannelFrequencyPlaceholder">10M</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.consumerKey">Consumer Key</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.consumerSecret">Consumer Secret</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.accessToken">Access Token</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.accessTokenSecret">Access Token Secret</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.consumerKeyRequired">The Consumer Key is required</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.consumerSecretRequired">The Consumer Secret is required</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.fbAppId">Facebook app ID</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.fbAppIdPlaceholder">Facebook app ID</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.fbAppSettings">Facebook app settings</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.fbUsername">Facebook User Name</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.fbUsernameInstruction">Your Facebook User Name</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.fbPageNameSelect">Facebook Page</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.fbPageNameSelectInstruction">The Facebook Page the channel will post to</message>
+
+    <message key="plugins.generic.socialMedia.form.autoposter.fb.channelSettings.connectionSuccess">Connected successfully</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.fb.channelSettings.appIdMissing">In order to use this message posting channel you have to enter the Facebook app ID. Please enter the ID, save and open this form again.</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.fb.channelSettings.notAuthorized">In order to choose a Facebook page to post to you have to give the Facebook app the needed rights during the log in.</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.fb.channelSettings.authorizationExpired">The access you granted has expired. Please log in again to renew the access.</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.fb.channelSettings.insufficientRights">You don't have the rights to schedule messages for the page of this posting channel. Please contact the Facebook page administrator about this issue.</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.fb.channelSettings.notLoggedInYet">You are not logged into Facebook. If you want to choose a page to post to please log in.</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.fb.channelSettings.noLongerLoggedIn">You are no longer logged into Facebook. If you want to choose a page to post to please log in.</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.fb.channelSettings.noPageToChooseFrom"><![CDATA[None of the recieved pages have the required permissions <em>manage_pages</em> and <em>publish_pages</em>.]]></message>
+
+    <message key="plugins.generic.socialMedia.form.autoposter.fb.messageQueue.connectionSuccess">Connected successfully</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.fb.messageQueue.notAuthorized">In order to schedule messages you have to log into Facebook and authorize the app to post to your pages.</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.fb.messageQueue.authorizationExpired">The access you granted has expired. Please log in again to renew the access.</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.fb.messageQueue.insufficientRights">You don't have the rights to schedule messages for the page of this posting channel. Please contact the page administrator about this issue.</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.fb.messageQueue.notLoggedIn">You are not logged into Facebook. If you want to schedule posts please login.</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.fb.messageQueue.noLongerLoggedIn">You are no longer logged into Facebook. If you want to schedule posts please login.</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.fb.messageQueue.scheduleMessageError">There has been an error while scheduling your messages:</message>
+
+    <message key="plugins.generic.socialMedia.form.autoposter.twitter.channelSettings.startAuthText">If you want to register your account with the Twitter developer app click</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.twitter.channelSettings.startAuthLinkText">here</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.twitter.channelSettings.activationError">The channel can not be activated with the Access Token and/or Access Token Secret missing.</message>
+
+    <message key="plugins.generic.socialMedia.autoposter.twitter.callbackPage.accessCredentialsTitle">Twitter access credentials</message>
+    <message key="plugins.generic.socialMedia.autoposter.twitter.callbackPage.channelIdMissingTitle">Error: Posting channel id missing</message>
+    <message key="plugins.generic.socialMedia.autoposter.twitter.callbackPage.channelIdMissingParagraph">Without a channel id you can not register your account with the Twitter developer app. Please try again. When this keeps happening, please report to your administrator.</message>
+    <message key="plugins.generic.socialMedia.autoposter.twitter.callbackPage.channelNotFoundTitle">Error: Posting channel not found</message>
+    <message key="plugins.generic.socialMedia.autoposter.twitter.callbackPage.channelNotFoundParagraph">No posting channel found. Please try again. When this keeps happening, please report to your administrator.</message>
+    <message key="plugins.generic.socialMedia.autoposter.twitter.callbackPage.wrongTypeTitle">Error: Wrong posting channel type</message>
+    <message key="plugins.generic.socialMedia.autoposter.twitter.callbackPage.wrongTypeParagraph">The posting channel is not for Twitter. Please try again. When this keeps happening, please report to your administrator.</message>
+    <message key="plugins.generic.socialMedia.autoposter.twitter.callbackPage.deniedTitle">Error: Access denied</message>
+    <message key="plugins.generic.socialMedia.autoposter.twitter.callbackPage.deniedParagraph">While authenticating with Twitter the access of the Twitter developer app to your account has been denied. In order to recieve the credentials that are needed for the autoposting the access has to be granted. If you want to enable autoposting click here and try again.</message>
+    <message key="plugins.generic.socialMedia.autoposter.twitter.callbackPage.missingConsumerTitle">Error: Consumer key and/or consumer secret missing</message>
+    <message key="plugins.generic.socialMedia.autoposter.twitter.callbackPage.missingConsumerParagraph">In order to request access tokens from Twitter a consumer key and a consumer secret necessary. Please add them in the posting channel settings.</message>
+    <message key="plugins.generic.socialMedia.autoposter.twitter.callbackPage.requestErrorTitle">Error: The request to Twitter failed</message>
+    <message key="plugins.generic.socialMedia.autoposter.twitter.callbackPage.requestDefaultErrorParagraph">There was an error while making the request to Twitter. Have a look a the server logs for further information.</message>
+    <message key="plugins.generic.socialMedia.autoposter.twitter.callbackPage.requestErrorParagraph">There was an error while making the request to Twitter. Have a look a the server logs for further information.</message>
+    <message key="plugins.generic.socialMedia.autoposter.twitter.callbackPage.successHeading">The authentication was successful.</message>
+    <message key="plugins.generic.socialMedia.autoposter.twitter.callbackPage.successUsername">You successfully registered the posting channel for the Twitter user</message>
+    <message key="plugins.generic.socialMedia.autoposter.twitter.callbackPage.successParagraph">Please store the following credentials and save them in your Twitter posting channel.</message>
+    <message key="plugins.generic.socialMedia.autoposter.twitter.callbackPage.accessToken">Access Token</message>
+    <message key="plugins.generic.socialMedia.autoposter.twitter.callbackPage.accessTokenSecret">Access Token Secret</message>
+
+    <message key="plugins.generic.socialMedia.form.autoposter.message.article">Article out by</message>
+    <message key="plugins.generic.socialMedia.form.autoposter.message.issue">New issue out now:</message>
+
+    <message key="plugins.generic.socialMedia.description.index">-journalName-: -currentIssue- -currentIssueId-</message>
+    <message key="plugins.generic.socialMedia.description.siteIndex">Have a look at all the journals by -siteName-.</message>
+    <message key="plugins.generic.socialMedia.description.issue">Have a look at all the articles of -journalAcronym- - -title-</message>
+    <message key="plugins.generic.socialMedia.description.issuearchive">Browse the current and previous issues of the -journalAcronym- journal</message>
+    <message key="plugins.generic.socialMedia.description.search">Search the content of -journalAcronym- journal by titles, authors and keywords.</message>
+    <message key="plugins.generic.socialMedia.description.authorsIndex">Who is publishing articles in -journalAcronym- journal? Have a look at the authors index</message>
+    <message key="plugins.generic.socialMedia.description.authorsDetails">Have a look at contributions of -authorName- to -journalAcronym- journal</message>
+    <message key="plugins.generic.socialMedia.description.aboutThisPublishingSystem">Information about the Open Journals System, the software and processes behind -journalAcronym-</message>
+    <message key="plugins.generic.socialMedia.description.contact">Do you have any questions? Don't hesitate to contact us.</message>
+    <message key="plugins.generic.socialMedia.description.editorialTeam">You want to know more about the people behind -journalAcronym-? Have a look at our Editorial Team.</message>
+    <message key="plugins.generic.socialMedia.description.aboutIndex">You want to know more about the focus and scope of -journalAcronym- journal? Then have a look at this page.</message>
+    <message key="plugins.generic.socialMedia.description.submissions">Are you interested in publishing with -journalAcronym-? Here you can find all relevant information.</message>
+    <message key="plugins.generic.socialMedia.description.announcements.index">Is there an open call for papers? Have a look here and check out all recent announcements.</message>
+    <message key="plugins.generic.socialMedia.description.information.informationForReaders">Information for readers of -journalName-</message>
+    <message key="plugins.generic.socialMedia.description.information.informationForAuthors">Information for authors about -journalName-</message>
+    <message key="plugins.generic.socialMedia.description.information.informationForLibrarians">Information for librarians about -journalName-</message>
+    <message key="plugins.generic.socialMedia.description.information.competingInterestGuidelines">The competing interests disclosure policy for reviewers at -journalAcronym- journal.</message>
+    <message key="plugins.generic.socialMedia.description.information.sampleCopyrightWording">Detailed information about our copyright are available here.</message>
+    <message key="plugins.generic.socialMedia.description.login.index">You want to login as a reader or author? Click here.</message>
+    <message key="plugins.generic.socialMedia.description.login.lostPassword">Forgot your password? You are just one step away from getting a new one.</message>
+    <message key="plugins.generic.socialMedia.description.register">Register with us and stay up to date with all publications of -journalName-!</message>
+</locale>

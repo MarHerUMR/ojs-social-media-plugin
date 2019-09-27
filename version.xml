@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+  * plugins/generic/socialMedia/version.xml
+  *
+  * Plugin version information.
+  -->
+<version>
+	<application>socialMedia</application>
+	<type>plugins.generic</type>
+	<release>1.0.0.0</release>
+	<date>2019-09-27</date>
+</version>
